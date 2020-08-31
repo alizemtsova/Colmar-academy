@@ -136,3 +136,42 @@ button {
 #lecture img {
     padding: 16px;
 }
+
+
+/*Course*/
+
+.course {
+    background: rgba(0, 0, 0, 0.05);
+    margin: 32px 0;
+    padding: 32px 72px;
+}
+
+.course h1 {
+    text-align: center;
+}
+
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mini-course {
+    background-color: white;
+    width: 30%;
+    margin: 16px 16px;
+}
+
+.mini-course img {
+    width: 100%;
+}
+
+.mini-course h3 {
+    margin: 16px;
+}
+
+.mini-course p {
+    margin: 16px;
+}
+
