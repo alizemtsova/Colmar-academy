@@ -1,0 +1,13 @@
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+#logo {
+    text-transform: uppercase;
+    color: black;
+}
+
+#logo2 {
+    text-transform: uppercase;
+    color: darkgray;
+}
