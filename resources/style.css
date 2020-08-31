@@ -5,9 +5,39 @@ body {
 #logo {
     text-transform: uppercase;
     color: black;
+    font-size: 32px;
 }
 
 #logo2 {
     text-transform: uppercase;
     color: darkgray;
+    font-size: 32px;
+}
+
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+    float: right;
+    margin: 0 16px;
+    line-height: 64px;
+}
+
+.menu img {
+    width: 45px;
+    vertical-align: middle;
+}
+
+.menu {
+    margin: 0 24px;
+    height: 64px;
+}
+
+.logo {
+    width: 150px;
+    display: inline;
+    height: 64px;
+    line-height: 64px;
 }
