@@ -1,5 +1,7 @@
 body {
     font-family: 'Signika', sans-serif;
+    color: dimgrey;
+    font-size: 18px;
 }
 
 #logo {
@@ -40,4 +42,97 @@ body {
     display: inline;
     height: 64px;
     line-height: 64px;
+}
+
+/* Banner*/
+
+.banner {
+    display: flex;
+    background-color: gainsboro;
+}
+
+.banner img {
+    width: 60%;
+    margin: 24px 32px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.content h1 {
+    font-size: 64px;
+    margin: 32px 0;
+}
+
+button {
+    background-color: dimgrey;
+    width: 350px;
+    border: none;
+    font-size: 32px;
+    padding: 8px 0;
+    color: white;
+    font-family: inherit;
+    font-weight: 300;
+    margin: 32px 0;
+}
+
+/*Information section*/
+
+.container {
+    display: flex;
+    margin: 32px 24px;
+}
+
+.info {
+    width: 60%;
+}
+
+.info img {
+    width: 100%;
+}
+
+.mini-info-container {
+    display: flex;
+    flex-flow: column;
+    padding-left: 24px;
+}
+
+.mini-info {
+    display: flex;
+}
+
+.mini-info img {
+    width: 30%;
+    padding: 0 16px 16px 16px;
+}
+
+.mini-info h3 {
+    margin: 0;
+}
+
+.mini-info p {
+    margin: 8px 0;
+}
+
+.info-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 65%;
+}
+
+.info-content a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+#lecture {
+    background-color: gainsboro;
+}
+
+#lecture img {
+    padding: 16px;
 }
