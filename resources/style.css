@@ -175,3 +175,58 @@ button {
     margin: 16px;
 }
 
+/*Thesis*/
+
+#thesis {
+    text-align: center;
+}
+
+.thesis {
+    display: flex;
+    margin-bottom: 32px;
+    margin-left: 24px;
+}
+
+.thesis-video {
+    width: 60%;
+}
+
+.thesis-video video {
+    width: 100%;
+}
+
+.thesis-news {
+    margin-left: 24px;
+}
+
+.thesis-news img {
+    width: 35%;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.news img {
+    margin: 16px;
+}
+
+#fisma {
+    background-color: gainsboro;
+}
+
+/*footer*/
+
+footer {
+    display: inline;
+    margin: 16px 24px;
+}
+
+footer a {
+    float: right;
+    text-decoration: none;
+    margin: 0 16px;
+    color: dimgrey;
+}
