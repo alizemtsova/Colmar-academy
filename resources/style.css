@@ -290,10 +290,18 @@ button {
         margin-bottom: 8px;
     }
 
+    .mini-course {
+        margin: 0 0 8px 0;
+    }
+
     .mini-course img,
     .mini-course p {
         display: none;
     }  
+
+    .course-container {
+        margin-bottom: 64px;
+    }
 }
 
 
@@ -339,6 +347,27 @@ button {
     background-color: gainsboro;
 }
 
+@media screen and (max-width: 954px) {
+    #thesis {
+        margin: 32px 0 16px 0;
+    }
+
+    .thesis-news,
+    .thesis-video p,
+    .thesis-video h3 {
+        display: none;
+    }
+
+    .thesis-video {
+        width: 100%;
+    }
+
+    .thesis {
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+}
+
 /*footer*/
 
 footer {
@@ -351,4 +380,10 @@ footer a {
     text-decoration: none;
     margin: 0 16px;
     color: dimgrey;
+}
+
+@media screen and (max-width: 954px) {
+    footer a {
+        display: none;
+    }
 }
