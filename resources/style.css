@@ -22,9 +22,12 @@ body {
     text-decoration: none;
     font-size: 24px;
     font-weight: 300;
-    float: right;
     margin: 0 16px;
     line-height: 64px;
+}
+
+.links {
+    float: right;
 }
 
 .menu img {
@@ -35,6 +38,7 @@ body {
 .menu {
     margin: 0 24px;
     height: 64px;
+    display: inline;
 }
 
 .logo {
@@ -42,6 +46,27 @@ body {
     display: inline;
     height: 64px;
     line-height: 64px;
+}
+
+.button {
+    display: none;
+}
+
+@media screen and (max-width: 954px) {
+   
+    .button {
+        display: inline;
+    }
+    .word,
+    .logo {
+        display: none;
+    }
+
+    .links {
+        float: none;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /* Banner*/
@@ -69,7 +94,7 @@ body {
 
 button {
     background-color: dimgrey;
-    width: 350px;
+    width: 100%;
     border: none;
     font-size: 32px;
     padding: 8px 0;
@@ -77,6 +102,32 @@ button {
     font-family: inherit;
     font-weight: 300;
     margin: 32px 0;
+}
+
+@media screen and (max-width: 954px) {
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .content {
+        align-items: flex-start;
+        margin: 32px 16px;
+    }
+
+    .content h1 {
+        margin: 0;
+    }
+
+    button {
+        width: 500px;
+    }
 }
 
 /*Information section*/
