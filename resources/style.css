@@ -155,7 +155,7 @@ button {
     display: flex;
 }
 
-.mini-info img {
+.big-img {
     width: 30%;
     padding: 0 16px 16px 16px;
 }
@@ -186,6 +186,49 @@ button {
 
 #lecture img {
     padding: 16px;
+}
+
+.mobile-img {
+    display: none;
+}
+
+@media screen and (max-width: 954px) {
+
+    .info {
+        display: none;
+    }
+
+    .mini-info-container,
+    .mini-info,
+    #lecture {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 0 16px;
+        align-items: flex-start;
+    }
+
+    .mini-info {
+        margin-bottom: 64px;
+    }
+
+    .info-content {
+        padding: 16px;
+    }
+
+    .big-img {
+        display: none;
+    }
+    
+    .mobile-img {
+        display: flex;
+    }
+
+    #lecture {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
 }
 
 
@@ -225,6 +268,34 @@ button {
 .mini-course p {
     margin: 16px;
 }
+
+@media screen and (max-width: 954px) {
+    
+    .course h1 {
+        margin: 0 0 16px 0;
+    }
+
+    .course {
+        background-color: white;
+        padding: 0 16px;
+    }
+
+    .mini-course {
+        background-color: gainsboro;
+        width: 100%;
+    }
+
+    .mini-course h3 {
+        padding: 16px 16px 24px 16px;
+        margin-bottom: 8px;
+    }
+
+    .mini-course img,
+    .mini-course p {
+        display: none;
+    }  
+}
+
 
 /*Thesis*/
 
