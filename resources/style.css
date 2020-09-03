@@ -52,7 +52,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 954px) {
+@media only screen and (max-device-width: 480px) {
    
     .button {
         display: inline;
@@ -104,7 +104,7 @@ button {
     margin: 32px 0;
 }
 
-@media screen and (max-width: 954px) {
+@media only screen and (max-device-width: 480px) {
 
     .banner {
         flex-direction: column;
@@ -192,7 +192,7 @@ button {
     display: none;
 }
 
-@media screen and (max-width: 954px) {
+@media only screen and (max-device-width: 480px) {
 
     .info {
         display: none;
@@ -269,7 +269,7 @@ button {
     margin: 16px;
 }
 
-@media screen and (max-width: 954px) {
+@media only screen and (max-device-width: 480px) {
     
     .course h1 {
         margin: 0 0 16px 0;
@@ -347,7 +347,7 @@ button {
     background-color: gainsboro;
 }
 
-@media screen and (max-width: 954px) {
+@media only screen and (max-device-width: 480px) {
     #thesis {
         margin: 32px 0 16px 0;
     }
@@ -382,8 +382,9 @@ footer a {
     color: dimgrey;
 }
 
-@media screen and (max-width: 954px) {
+@media only screen and (max-device-width: 480px) {
     footer a {
         display: none;
     }
 }
+
